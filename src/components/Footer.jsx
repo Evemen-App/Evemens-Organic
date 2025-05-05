@@ -3,7 +3,7 @@ import { Phone, Mail, Facebook, Instagram, User, MailCheck, User2, Linkedin } fr
 
 const Footer = () => {
   return (
-    <footer className="bg-amber-900 text-white py-12 px-6">
+    <footer className="bg-green-950 text-white py-12 px-6">
     <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10">
   
       {/* Section 1: Logo */}
@@ -37,23 +37,23 @@ const Footer = () => {
           <input
             type="text"
             placeholder="Name"
-            className="w-full px-4 py-2 bg-gray-800 text-white border border-gray-700 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" />
+            className="w-full px-4 py-2 bg-gray-300 text-black border border-gray-100 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" />
           <input
             type="email"
             placeholder="Email"
-            className="w-full px-4 py-2 bg-gray-800 text-white border border-gray-700 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" />
+            className="w-full px-4 py-2 bg-gray-300 text-black border border-gray-100 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" />
           <input
             type="text"
             placeholder="Subject"
-            className="w-full px-4 py-2 bg-gray-800 text-white border border-gray-700 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" />
+            className="w-full px-4 py-2 bg-gray-300 text-black border border-gray-100 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500" />
           <textarea
             placeholder="Message"
             rows="4"
-            className="w-full px-4 py-2 bg-gray-800 text-white border border-gray-700 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="w-full px-4 py-2 bg-gray-300 text-black border border-gray-100 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
           ></textarea>
           <button
             type="submit"
-            className="bg-green-900 hover:bg-blue-500 text-white px-4 py-2 rounded-md font-semibold"
+            className="bg-yellow-300 hover:bg-green-700 text-black px-4 py-2 rounded-md font-semibold"
           >
             Send
           </button>

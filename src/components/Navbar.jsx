@@ -3,10 +3,10 @@ import { NavLink } from 'react-router'
 
 const Navbar = () => {
   return (
-    <nav className='flex justify-between items-center italic bg-amber-900 p-4 '> 
+    <nav className='flex justify-between items-center italic bg-green-950 p-4 '> 
         <p>Eve<span className='italic text-yellow-300'>mens </span></p>
 
-        <ul className='flex font-bold gap-20 p-3'>
+        <ul className='flex font-bold gap-20 p-3 text-white'>
           <NavLink to='about'><li>About</li></NavLink>  
            <NavLink to='chefs'><li>Productdetail</li></NavLink> 
            <NavLink to='contact'> <li>Contact</li></NavLink>
