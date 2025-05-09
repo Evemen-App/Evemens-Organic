@@ -1,12 +1,13 @@
 import React from 'react'
 import sheapic from "../../assets/images/sheapic.jpg"
+import aboutpic from '../../assets/images/aboutpic.jpg'
 
 const About = () => {
   return (
 
     
     <div className='bg-cover bg-fixed'>
-      <img className='h-150 w-full' src={sheapic} alt="sheapic.jpg" />
+      <img className='h-140 w-full object-cover' src={aboutpic} alt="aboutpic.jpg" />
 
         <section className="bg-gray-200 text-gray-800 px-6 py-12 md:px-20 lg:px-32">
       <div className="max-w-4xl mx-auto text-center">

@@ -1,54 +1,53 @@
-import React from 'react'
-import './App.css'
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-import RootLayout from './layout/RootLayout'
-import Homeview from './pages'
-import About from './pages/OtherPages/About'
+import React from "react";
+import "./App.css";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import RootLayout from "./layout/RootLayout";
+import Homeview from "./pages";
+import About from "./pages/OtherPages/About";
 // import Chefs from './pages/OtherPages/Productdetail'
-import Contact from './pages/OtherPages/contact'
-import Blog from './pages/OtherPages/blog'
-import Register from './pages/OtherPages/Register'
-import Productdetail from './pages/OtherPages/Productdetail'
+import Contact from "./pages/OtherPages/contact";
+import Blog from "./pages/OtherPages/blog";
+import Register from "./pages/OtherPages/Register";
+import Productdetail from "./pages/OtherPages/Productdetail";
+import Cart from "./pages/OtherPages/Cart";
+import DashboardLayout from "./layout/DashboardLayout";
+import AdProduct from "./pages/dashboard/AdProduct";
+import AllProducts from "./pages/dashboard/AllProducts";
+import Overview from "./pages/dashboard/overview";
 
 function App() {
-  const router = createBrowserRouter ([
+  const router = createBrowserRouter([
     {
-      path: '/',
-      element: <RootLayout/>,
-      children: [{index: true, element: <Homeview />},
+      path: "/",
+      element: <RootLayout />,
+      children: [
+        { index: true, element: <Homeview /> },
+        { path: "about",element: <About />, },
+        { path: "product-details", element: <Productdetail />,},
+        { path: "contact", element: <Contact />,},
+        { path: "blog", element: <Blog />,},
+        { path: "register", element: <Register />,},
 
-        {
-          path: 'about', 
-          element: <About/>
-        },
+        { path: "cart", element: <Cart />}
 
-        {
-          path: 'Productdetail', 
-          element: <Productdetail/>
-        },
+      ],
 
-        {
-          path: 'contact', 
-          element: <Contact/>
-        },
+    },
 
-        {
-          path: 'blog', 
-          element: <Blog/>
-        },
-        
-        {
-          path: 'register', 
-          element: <Register/>
-        }
+    { 
+
+      path: "/dashboard",
+       element: <DashboardLayout />,
+      children: [
+        {index: true, element: <Overview />},
+        {path: "adproduct", element: <AdProduct/>},
+        {path: "allproduct", element: <AllProducts/>},
       ]
 
-
-    
-    }
+    },
   ]);
 
-  return <RouterProvider router={router}/>;
+  return <RouterProvider router={router} />;
 }
 
 export default App;
