@@ -96,19 +96,21 @@ const Sidebar = () => {
             <LayoutDashboard size={18} /> Overview
           </NavLink>
 
+          <NavLink to="/dashboard/allproduct" className="flex items-center gap-2 px-4 py-2 text-sm font-medium rounded text-white hover:bg-gray-500">
+            <Package size={18} /> All Products
+          </NavLink>
+
           <NavLink to="/dashboard/adproduct" className="flex items-center gap-2 px-4 py-2 text-sm font-medium rounded text-white hover:bg-gray-500">
             <PlusCircle size={18} /> Add Product
           </NavLink>
 
-          <NavLink to="/dashboard/allproduct" className="flex items-center gap-2 px-4 py-2 text-sm font-medium rounded text-white hover:bg-gray-500">
-            <Package size={18} /> All Products
-          </NavLink>
+          
 
           <NavLink to="/dashboard/cart" className="flex items-center gap-2 px-4 py-2 text-sm font-medium rounded text-white hover:bg-gray-500">
             <ShoppingCart size={18} /> Cart
           </NavLink>
 
-          <NavLink to="/dashboard/blog" className="flex items-center gap-2 px-4 py-2 text-sm font-medium rounded text-white hover:bg-gray-500">
+          <NavLink to="/blog" className="flex items-center gap-2 px-4 py-2 text-sm font-medium rounded text-white hover:bg-gray-500">
             <FileText size={18} /> Blog
           </NavLink>
         </nav>
