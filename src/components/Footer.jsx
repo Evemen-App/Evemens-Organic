@@ -22,6 +22,11 @@ const Footer = () => {
         <p className="font-medium"> Facebook</p>
         <p>Evemens Organic Product</p>
         </div>
+
+        <div className="flex space-x-4 pt-2">
+            <p className="font-medium"> Working Hours</p>
+            <p>Always Open</p>
+          </div>
     </div>
   
       {/* Section 2: Contact Info */}
@@ -74,7 +79,7 @@ const Footer = () => {
           ></textarea>
           <button
             type="submit"
-            className="bg-yellow-300 hover:bg-green-700 text-black px-4 py-2 rounded-md font-semibold"
+            className="bg-gray-900 hover:bg-green-700 text-white px-4 py-2 rounded-md font-semibold"
           >
             Send
           </button>
@@ -82,7 +87,7 @@ const Footer = () => {
       </div>
     </div>
       <hr className='border-black'/>
-      <p className='italic items-center'>copyright@ evemens organic product 2025 . allrights reserved</p>
+      <p className='italic text-center items-center'>copyright@ evemens organic product 2025 . allrights reserved</p>
   </footer>
   )
 }

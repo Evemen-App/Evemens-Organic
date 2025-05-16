@@ -1,5 +1,4 @@
 import React from 'react'
-import sheapic from "../../assets/images/sheapic.jpg"
 import aboutpic from '../../assets/images/aboutpic.jpg'
 
 const About = () => {

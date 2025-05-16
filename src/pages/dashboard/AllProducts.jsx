@@ -20,7 +20,7 @@ const AllProducts = () => {
           <div className="bg-amber-100 flex items-center justify-center h-48">
             <img src={sheacream} alt="Organic Shea Butter Cream" className="object-contain h-full" />
           </div>
-          <div className="p-5 text-gray-800">
+          <div className="p-5 text-gray-800 text-center">
             <h3 className="text-lg font-semibold">Organic Shea Butter Cream</h3>
             <p className="text-sm mt-2">
               100% pure, unrefined shea butter — beautifully packaged for gifting or self-care.
@@ -30,7 +30,7 @@ const AllProducts = () => {
               <p><strong>Price per Item:</strong> GHS 25</p>
             </div>
             <div className="mt-4 flex gap-2">
-              <Link to="/editform" className="bg-yellow-500 text-white px-4 py-2 rounded-lg text-sm hover:bg-yellow-600">Edit</Link>
+              <Link to="/EditForm" className="bg-yellow-500 text-white px-4 py-2 rounded-lg text-sm hover:bg-yellow-600">Edit</Link>
               <button className="bg-red-600 text-white px-4 py-2 rounded-lg text-sm hover:bg-red-700">Delete</button>
             </div>
           </div>
@@ -41,7 +41,7 @@ const AllProducts = () => {
           <div className="bg-amber-100 flex items-center justify-center h-48">
             <img src={black} alt="Organic African Black Soap" className="object-contain h-full" />
           </div>
-          <div className="p-5 text-gray-800">
+          <div className="p-5 text-gray-800 text-center">
             <h3 className="text-lg font-semibold">Organic African Black Soap</h3>
             <p className="text-sm mt-2">
               Made from natural plant-based ingredients for deep cleansing and nourishing skin naturally.
@@ -61,7 +61,7 @@ const AllProducts = () => {
           <div className="bg-amber-100 flex items-center justify-center h-48">
             <img src={sheagel} alt="African Black Shower Gel" className="object-contain h-full" />
           </div>
-          <div className="p-5 text-gray-800">
+          <div className="p-5 text-gray-800 text-center">
             <h3 className="text-lg font-semibold">African Black Shower Gel</h3>
             <p className="text-sm mt-2">
             Gently cleanses and hydrates skin, ideal for daily use and all skin types.
@@ -81,7 +81,7 @@ const AllProducts = () => {
           <div className="bg-amber-100 flex items-center justify-center h-48">
             <img src={tumericpic} alt="Organic Turmeric Soap" className="object-contain h-full" />
           </div>
-          <div className="p-5 text-gray-800">
+          <div className="p-5 text-gray-800 text-center">
             <h3 className="text-lg font-semibold">Organic Turmeric Soap</h3>
             <p className="text-sm mt-2">
               Brightens skin naturally using turmeric extract and shea base.
@@ -101,7 +101,7 @@ const AllProducts = () => {
           <div className="bg-amber-100 flex items-center justify-center h-48">
             <img src={charcoalpic} alt="Charcoal Soap" className="object-contain h-full" />
           </div>
-          <div className="p-5 text-gray-800">
+          <div className="p-5 text-gray-800 text-center">
             <h3 className="text-lg font-semibold">Activated Charcoal Soap</h3>
             <p className="text-sm mt-2">
             Detoxifies and exfoliates, great for oily and acne-prone skin types.
@@ -122,7 +122,7 @@ const AllProducts = () => {
           <div className="bg-amber-100 flex items-center justify-center h-48">
             <img src={showergel} alt="Showergel.jpg" className="object-contain h-full" />
           </div>
-          <div className="p-5 text-gray-800">
+          <div className="p-5 text-gray-800 text-center">
             <h3 className="text-lg font-semibold">Organic Shea Showergel</h3>
             <p className="text-sm mt-2">
             A soothing blend that rejuvenates and repairs your skin with every wash made from shea butter.ideal for all skin types.
