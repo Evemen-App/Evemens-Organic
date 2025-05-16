@@ -14,6 +14,8 @@ import DashboardLayout from "./layout/DashboardLayout";
 import AdProduct from "./pages/dashboard/AdProduct";
 import AllProducts from "./pages/dashboard/AllProducts";
 import Overview from "./pages/dashboard/overview";
+import EditForm from "./components/EditForm";
+import Adminlogin from "./pages/auth/Adminlogin";
 
 function App() {
   const router = createBrowserRouter([
@@ -45,6 +47,16 @@ function App() {
       ]
 
     },
+
+    {
+      path: "/editform",
+       element: <EditForm />,
+    },
+    {
+      path: "/adminlogin",
+      element: <Adminlogin />,
+    }
+
   ]);
 
   return <RouterProvider router={router} />;

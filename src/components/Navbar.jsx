@@ -29,6 +29,7 @@ const Navbar = () => {
 
       {/* Menu Items */}
       <ul className="peer-checked:flex hidden md:flex flex-col md:flex-row gap-4 md:gap-10 mt-4 md:mt-0 font-bold">
+         <NavLink to="/"><li>Home</li></NavLink>
         <NavLink to="about"><li>About</li></NavLink>
         <NavLink to="product-details"><li>Products</li></NavLink>
         <NavLink to="contact"><li>Contact</li></NavLink>
