@@ -13,9 +13,9 @@ import Cart from "./pages/OtherPages/Cart";
 import DashboardLayout from "./layout/DashboardLayout";
 import AdProduct from "./pages/dashboard/AdProduct";
 import AllProducts from "./pages/dashboard/AllProducts";
-import Overview from "./pages/dashboard/overview";
 import EditForm from "./components/EditForm";
 import Adminlogin from "./pages/auth/Adminlogin";
+import DashboardView from "./pages/dashboard/DashboardView";
 
 function App() {
   const router = createBrowserRouter([
@@ -44,7 +44,7 @@ function App() {
         {index: true, element: <Overview />},
         {path: "adproduct", element: <AdProduct/>},
         {path: "allproduct", element: <AllProducts/>},
-        {path: "overview", element: <Overview />},
+        {path: "dashboardview", element: <DashboardView/>}
       ]
 
     },
