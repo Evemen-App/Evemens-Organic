@@ -44,6 +44,7 @@ function App() {
         {index: true, element: <Overview />},
         {path: "adproduct", element: <AdProduct/>},
         {path: "allproduct", element: <AllProducts/>},
+        {path: "overview", element: <Overview />},
       ]
 
     },
