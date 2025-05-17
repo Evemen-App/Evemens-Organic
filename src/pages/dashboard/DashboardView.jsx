@@ -1,7 +1,8 @@
 import React from 'react'
 
-const overview = () => {
+const DashboardView = () => {
   return (
+      
    
    
   //   <div className="p-4 space-y-6">
@@ -74,6 +75,7 @@ const overview = () => {
 
   )
   
+  
 }
 
-export default overview
+export default DashboardView
