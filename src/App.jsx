@@ -6,7 +6,7 @@ import Homeview from "./pages";
 import About from "./pages/OtherPages/About";
 // import Chefs from './pages/OtherPages/Productdetail'
 import Contact from "./pages/OtherPages/Contact";
-import Blog from "./pages/OtherPages/blog";
+import Blog from "./pages/OtherPages/Blog";
 import Register from "./pages/OtherPages/Register";
 import Productdetail from "./pages/OtherPages/Productdetail";
 import Cart from "./pages/OtherPages/Cart";
