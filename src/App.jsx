@@ -41,7 +41,7 @@ function App() {
       path: "/dashboard",
        element: <DashboardLayout />,
       children: [
-        {index: true, element: <Overview />},
+        {index: true, element: <DashboardView />},
         {path: "adproduct", element: <AdProduct/>},
         {path: "allproduct", element: <AllProducts/>},
         {path: "dashboardview", element: <DashboardView/>}
