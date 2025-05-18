@@ -4,7 +4,7 @@ import black from '../../assets/images/black.jpg';
 import sheagel from '../../assets/images/sheagel.jpg';
 import tumericpic from '../../assets/images/tumericpic.jpg';
 import charcoalpic from '../../assets/images/charcoalpic.jpg';
-import showergel from '../../assets/images/Showergel.jpg'
+import showergel from '../../assets/images/showergel.jpg'
 import { Link } from 'react-router';
 
 const Productdetail = () => {
@@ -275,7 +275,7 @@ const Productdetail = () => {
 
       <div className="bg-white rounded-2xl shadow-md border border-gray-200">
         <div className="bg-amber-100 flex items-center justify-center h-48">
-          <img src={sheagel} alt="Shower Gel" className="object-contain h-full" />
+          <img src={sheagel} alt="Shea Gel" className="object-contain h-full" />
         </div>
         <div className="p-5 text-gray-800">
           <h3 className="text-lg font-semibold">African Black Shower Gel</h3>
