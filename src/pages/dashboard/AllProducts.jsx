@@ -207,7 +207,7 @@ const AllProducts = () => {
             <p className="mt-2 text-xs">Made from natural plant-based ingredients for deep cleansing and nourishing skin naturally.</p>
             <div className="mt-4 space-y-1 text-xs">
               <p><strong>Price per Box:</strong> GHS 600</p>
-              <p><strong>Price per Item:</strong> GHS 25</p>
+              <p><strong>Price per Item:</strong> GHS 25</p> 
             </div>
             <div className="mt-4 flex justify-center gap-2">
               <Link to="/editform" className="bg-yellow-500 text-white px-3 py-1 rounded hover:bg-yellow-600">Edit</Link>
