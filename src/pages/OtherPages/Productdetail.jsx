@@ -229,7 +229,7 @@ const Productdetail = () => {
     // </div>
 
     <div>
-    <h1 className="text-center text-4xl md:text-5xl font-bold mt-10">Our Products</h1>
+    <h1 className="text-center text-green-800 text-4xl md:text-5xl font-bold mt-10">Our Products</h1>
 
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 p-6">
       

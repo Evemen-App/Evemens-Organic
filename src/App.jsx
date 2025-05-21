@@ -16,6 +16,7 @@ import AllProducts from "./pages/dashboard/AllProducts";
 import EditForm from "./components/EditForm";
 import Adminlogin from "./pages/auth/Adminlogin";
 import DashboardView from "./pages/dashboard/DashboardView";
+import AdminProfile from "./pages/dashboard/AdminProfile";
 
 function App() {
   const router = createBrowserRouter([
@@ -44,7 +45,8 @@ function App() {
         {index: true, element: <DashboardView />},
         {path: "adproduct", element: <AdProduct/>},
         {path: "allproduct", element: <AllProducts/>},
-        {path: "dashboardview", element: <DashboardView/>}
+        {path: "dashboardview", element: <DashboardView/>},
+        {path: "adminprofile", element: <AdminProfile />},
       ]
 
     },

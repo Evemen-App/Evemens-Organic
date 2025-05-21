@@ -175,7 +175,7 @@ const AllProducts = () => {
         </Link>
       </div>
 
-      <h1 className="text-center text-green-800 text-3xl md:text-4xl font-bold mb-6">Our Products</h1>
+      <h1 className="text-center text-green-900 text-3xl md:text-4xl font-bold mb-6">Our Products</h1>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
         {/* Product Card 1 */}
